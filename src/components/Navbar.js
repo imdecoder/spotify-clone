@@ -1,6 +1,6 @@
 function Navbar() {
 	return (
-		<nav>
+		<nav className="h-[3.75rem]">
 			navbar
 		</nav>
 	);

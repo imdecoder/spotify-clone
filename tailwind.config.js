@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
 	mode: 'jit',
 	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
@@ -11,6 +10,9 @@ module.exports = {
 				active: '#282828',
 				link: '#b3b3b3',
 				footer: '#181818'
+			},
+			fontSize: {
+				s: '0.813rem'
 			}
 		}
 	},
