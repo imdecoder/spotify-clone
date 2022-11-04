@@ -8,19 +8,21 @@ import Collection from 'views/Collection';
 
 function Content() {
 	return (
-		<main className="flex-auto">
+		<main className="flex-auto overflow-auto">
 			<Navbar />
-			<Switch>
-				<Route path="/" exact>
-					<Home />
-				</Route>
-				<Route path="/search">
-					<Search />
-				</Route>
-				<Route path="/collection">
-					<Collection />
-				</Route>
-			</Switch>
+			<div className="py-5 px-8">
+				<Switch>
+					<Route path="/" exact>
+						<Home />
+					</Route>
+					<Route path="/search">
+						<Search />
+					</Route>
+					<Route path="/collection">
+						<Collection />
+					</Route>
+				</Switch>
+			</div>
 		</main>
 	);
 }

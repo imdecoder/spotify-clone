@@ -8,7 +8,7 @@ import DownloadApp from 'components/Sidebar/DownloadApp';
 
 function Sidebar() {
 	return (
-		<aside className="flex flex-col w-60 bg-black pt-6">
+		<aside className="flex flex-shrink-0 flex-col w-60 bg-black pt-6">
 
 			<a href="#" className="px-6 mb-7">
 				<img src={logo} alt="" className="h-10" />
