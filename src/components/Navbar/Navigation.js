@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom';
 
-import { Icon } from 'Icons';
+import { Icon } from 'const/Icons';
 
 function Navigation() {
 	const history = useHistory();

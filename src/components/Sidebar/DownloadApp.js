@@ -1,4 +1,4 @@
-import { Icon } from 'Icons';
+import { Icon } from 'const/Icons';
 
 function DownloadApp() {
 	return (

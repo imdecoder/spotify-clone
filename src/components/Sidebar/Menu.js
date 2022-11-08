@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import { Icon } from 'Icons';
+import { Icon } from 'const/Icons';
 
 function Menu() {
 	return (

@@ -1,6 +1,6 @@
 import logo from 'assets/images/logo.svg';
 
-import { Icon } from 'Icons';
+import { Icon } from 'const/Icons';
 
 import Menu from 'components/Sidebar/Menu';
 import Playlists from 'components/Sidebar/Playlists';

@@ -1,6 +1,6 @@
 import { Menu } from '@headlessui/react';
 
-import { Icon } from 'Icons';
+import { Icon } from 'const/Icons';
 
 function Auth() {
 	const user = {

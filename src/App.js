@@ -7,7 +7,7 @@ import BottomBar from 'components/BottomBar';
 function App() {
 	return (
 		<Router>
-			<div lang="tr" className="wrapper">
+			<div className="wrapper">
 				<Sidebar />
 				<Content />
 			</div>
